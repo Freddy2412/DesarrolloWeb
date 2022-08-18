@@ -17,15 +17,64 @@
         a{
             color:rgb(0, 81, 255)
         }
+        .lista-s>li{
+            list-style: disc;
+        }
+
     </style>
 
     <h1 style="color:red">Etiquetas de HTML</h1>
     <ul>
         <li><h3 style="color:rgb(0, 81, 255)">&lt;a&gt;</h3></li>
-        <p>Esta etiqueta sirve para colocar una <strong>URL</strong> de alguna página o documento.<br>Por ejemplo: <a href="https://perrhijos.com.mx/">Púchale aquí</a></p>
+         <p>Esta etiqueta sirve para colocar una <strong>URL</strong> de alguna página o documento.<br>Por ejemplo: <a href="https://perrhijos.com.mx/">Púchale aquí</a></p>
         <li><h3>&lt;abbr&gt;</h3></li>
-        <p>Esta etiqueta nos va a servir para colocar una <strong>abreviatura.</strong></p>
-        <p>Ejemplo: <abbr title="Lenguaje de hipertexto">HTML</abbr></p>
+            <p>Esta etiqueta nos va a servir para colocar una <strong>abreviatura.</strong></p>
+         <p>Ejemplo: <abbr title="Lenguaje de hipertexto">HTML</abbr></p>
+
+        <li><h3>&lt;address&gt;</h3>
+           <p>Define la información de contacto del autor/propietario de un documento u artículo.</p> 
+            Ejemplo:
+                <address>
+                    Escrito por <a href="https://infoedcmvc.my.canva.site/alfonso6z">Alfonso6z</a>
+                </address>
+            
+        <li><h3>&lt;article&gt;</h3>
+            <p>Un artículo debe tener sentido por sí mismo y debe ser posible distriburilo independientemente del resto del sitio.<br>Fuentes potenciales para el elemto article:</p>
+           <ul class="lista-s">
+            <li><p>Publicación en el foro</p></li>
+            <li><p></p>Entrada en el blog</p></li>
+            <li><p>Noticia</p></li>
+            </ul>
+            <p><strong>NOTA:</strong> &lt;article&gt; no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para darle diseño</p>
+            <p><a href="C:/DEV/EDC_DesarrolloWeb/2_EstructuraBásicaHTML/example/article.html">Ejemplo article con css</a></p>
+
+        <li><h3>&lt;aside&gt;</h3>  
+            <p>Define algún contenido además del contenido en el que se coloca. El contenido aparte debe estar<br> indirectamente relacionado con el continido circulante.<br> 
+                Sugerencia: aside se coloca a menudo como una barra lateral en un documento.<br>
+                Nota:Este elemento no se muestra como algo especial en el navegador. Sin embargo, puede usar CSS para<br> diseñar el aside.
+                </p>
+                <p><a href="C:/DEV/EDC_DesarrolloWeb/2_EstructuraBásicaHTML/example/aside.html">Ejemplo aside con css</a></p>    
+
+
+        <li><h3>&lt;audio&gt;</h3>
+            <p>Agrega controles de audio, como reproducción, pausa y volumen. El &lt;source&gt; permite especificar
+                archivos de audio alternativos entro los que puede elegirl el navegador.
+                Ejemplo:</p>
+                <audio controls>
+                    <source src="C:/DEV/EDC_DesarrolloWeb/2_EstructuraBásicaHTML/audio/teclado-mecanografia.mp3" type="audio/mpeg">Pista de audio
+                </audio>
+
+        <li><h3>&lt;button&gt;</h3> 
+            <p>Define un botón enel que es puede hacer clic.<br>
+                Dentro de un &lt;button&gt; puedes poner texto (y etiquteas como &lt;i&gt;,&lt;b&gt;,&lt;strong&gt;,&lt;img&gt;, etc ). !Eso no es
+                posible con un botón creado con el &lt;input&gt; <br>
+                Sugerencia:Especifique siembre el type de un &lt;button&gt;, para indicar a los navegadores qué tipo de botón
+                es.
+                Consejo: Puede diseñar botones facilmente con CSS<br>
+                Ejemplo:<br>
+                </p>
+                <button style="background-color:#4CAFS0">Botón 1</button>     
+                <button style="background-color:#008CBA">Botón 2</button>  
     </ul>
 </body>
 </html>
