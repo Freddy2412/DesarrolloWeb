@@ -8,6 +8,7 @@
 </head>
 <body>
     <style>
+        
         h3{
             color:rgb(132, 30, 228)
         }
@@ -19,6 +20,17 @@
         }
         .lista-s>li{
             list-style: disc;
+        }
+        .boton{
+        border:none;
+        color:white;
+        padding:15px 32px;
+        text-align:center;
+        text-decoration:none;
+        display:inline-block;
+        font-size:16px;
+        margin:4px 2px;
+        cursor:pointer;
         }
 
     </style>
@@ -73,8 +85,69 @@
                 Consejo: Puede diseñar botones facilmente con CSS<br>
                 Ejemplo:<br>
                 </p>
-                <button style="background-color:#4CAFS0">Botón 1</button>     
-                <button style="background-color:#008CBA">Botón 2</button>  
+                <button class="boton" style="background-color:green">Botón 1</button>     
+                <button class="boton" style="background-color:#008CBA">Botón 2</button>  
+
+        <li><h3>&lt;form&gt;</h3>
+            <p>Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de<br>
+                verificación, botones de opción, botonees de envío, etc.</p>
+
+            <ul class="lista-s">
+                <li>&lt;input type="text"&gt;  
+                <p>Mustra un campo de entrada de texto de una solo linea</p> 
+                <input type="text">
+
+                <li>&lt;input type="radio"&gt;
+                <p>Muestra un botón de radio(para selecionar una de muchas opciones)</p>
+                <input type="radio" name="grado">1
+                <input type="radio" name="grado">2
+                <input type="radio" name="grado">3
+
+                <li>&lt;input type="checkbox"&gt;
+                <p>Muestra una casilla de verificación(para selecionar cero o más opciónes)</p>
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+
+                <li>&lt;input type="submit"&gt;
+                <p>Muestra un botón de envio(para enviar el formulario)</p>
+                <input type="submit">
+
+                <li>&lt;input type="button"&gt;
+                <p>Muestra un boton en el que se puede hacer click.</p>
+                <input type="button">
+            </ul>
+        
+        <li><h3>&lt;footer&gt;</h3>
+            <p>Define un pie de página para un documento o sección<br> 
+                Normalmente contiene:</p>
+                <ul class="lista-s">
+                    <li>Información de autoría
+                    <li><p>Información de registro</p>
+                    <li><p>Información del contacto</p>
+                    <li><p>Mapa del sitio</p>
+                    <li><p>Volver a los enlaces superiores</p>
+                    <li><p>Documentos relacionados</p>
+                </ul>
+            <p><a href="C:/DEV/EDC_DesarrolloWeb/2_EstructuraBásicaHTML/example/footer.html">Ejemplo footer</a></p>
+
+        <li><h3>&lt;header&gt;</h3>
+            <p>Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación.<br>
+                Normalmente contiene:</p>
+            <ul class="lista-s">
+                <li>Uno a más elementos de encabezado (&lt;h1&gt; - &lt;h6&gt;)
+                <li>Logotipo o icono
+                <li>Información de autoría
+                    
+            </ul>
+
+
+        
+
+
+        <li><h3>&lt;nav&gt;</h3>
+
+
     </ul>
 </body>
 </html>
